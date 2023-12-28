@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>hello</h1>
+  <div class="books__container">
+    <div class="book__card" *ngFor="let book of books">
+      <img [src]="book.image" [alt]="book.alt" />
+      <p>{{ book.title }}</p>
+    </div>
+  </div>
+</div>
